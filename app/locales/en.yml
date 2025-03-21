@@ -1,0 +1,43 @@
+en:
+  logger:
+    info:
+      response_from_llm: "Response from the model: %response"
+      loading_llm: "🔄 Loading LLM model"
+      loaded_llm: "✅ Model successfully loaded"
+      incoming_message: "Received message: %message"
+      outgoing_message: "Sending reply: %content"
+      shutdown: "🔴 Shutting down all bots..."
+    error:
+      invalid_response_from_llm: "Invalid response format from the LLM model"
+      undefined: "Error: %error"
+  message:
+    llm:
+      thinking_list:
+        - That got me thinking... 🫡
+        - Hmm... interesting question ❓
+        - Intriguing... let's figure it out 🤝
+        - Let me think... 🤔
+        - Let's think about this... 🧠
+        - Alright, thinking it through... 🧐
+        - Processing the thought... 🔄
+        - Running it through my head... 🔄
+        - Already thinking... 💭
+        - Brainstorming in progress... ⚡
+        - Deep in thought... 🧘‍♂️
+        - Give me a second to think this through ⏳
+        - I'm already thinking it over... ⏳
+        - Activating thought process... 🤖
+      tune: "The response should not contain hieroglyphs. Please format the answer in HTML. Only the following tags are supported: <b>, <i>, <u>, <s>, <a>. Do not add any other tags. Use them only when necessary."
+      invalid_response_from_llm: "Sorry, there was an error processing the response."
+    no_files: "<b>Oops!</b> I can't process files! Please try sending a text message instead."
+    monitoring_bot:
+      info_update: "<i>Data is updated with a 1-minute delay.</i>"
+      online: "🟢 Online users: <b>%online_users_count</b>"
+      participants: "🟡 Conference participants: <b>%participants_count</b>"
+      cpu: "%color CPU usage: <b>%cpu_usage%%</b>"
+      conf: "📹 Conferences: <b>%conferences_count</b>"
+      stats: "%.conf\n%.participants\n%.online\n%.cpu\n\n%.info_update"
+      help: "Hi! I'm a monitoring bot for TrueConf Server. Here's what I can do:\n\n<b>/about</b> – about the bot\n<b>/help</b> – this help message\n<b>/online</b> – number of online users\n<b>/participants</b> – number of participants in conferences\n<b>/cpu</b> – CPU usage\n<b>/conf</b> – number of conferences\n<b>/stats</b> – full statistics"
+      about: "I'm a monitoring bot for TrueConf Server. I can fetch server statistics and send them to this chat."
+    hospital_bot:
+      greeting: "Hello everyone! 🌞\n\nI'll be forwarding messages from my chat to yours."

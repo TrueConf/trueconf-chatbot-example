@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pydantic-settings = "*"
+httpx = "*"
+toml = "*"
+llama-cpp-python = "*"
+huggingface-hub = "*"
+datamodel-code-generator = "*"
+i18nice = "*"
+python-trueconf-bot = "*"
+
+[dev-packages]

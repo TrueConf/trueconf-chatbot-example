@@ -1,0 +1,31 @@
+bots_language = "en"
+server_address = ""
+
+[echo_bot]
+username = ""
+password = ""
+
+[monitoring_bot]
+username = ""
+password = ""
+client_id = ""
+client_secret = ""
+access_token = ""
+
+[hospital_bot]
+username = ""
+password = ""
+chat_id = ""
+chat_name = ""
+
+[gpt_bot]
+username = ""
+password = ""
+
+[gpt_bot.llama]
+repo_id = ""
+filename = ""
+local_dir = ""
+n_ctx = 2048
+max_tokens = 8192
+n_gpu_layers = -1
