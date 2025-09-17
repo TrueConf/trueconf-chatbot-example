@@ -388,7 +388,8 @@ After configuring and installing dependencies, start the bots with:
 pipenv run python main.py
 ```
 
-> [!TIP] First Run
+> [!TIP]
+> **First Run**
 > 1. A special configurator generates the `config_models.py` file required by the project. Do not delete it!
 > 2. The model is downloaded from Hugging Face. After that, the bots launch automatically. On subsequent runs, bots start immediately.
 
