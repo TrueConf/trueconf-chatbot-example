@@ -70,14 +70,14 @@ bots_language = "ru" # Bots' response language
 server_address = "10.140.0.33" # IP address (FQDN) of TrueConf Server
 ```
 
-> [!CAUTION] Important
+> [!CAUTION]
 > Do **not** rename parameters, as they are directly referenced in the code. You may only change their **values**.
 
 ### Configuration Conversion
 
 When the project starts, a special configurator automatically converts [`config.toml`](config.toml) into `config_models.py` with Pydantic objects.
 
-> [!WARNING] Note
+> [!WARNING]
 > You must manually delete `config_models.py` if new parameters are added to [`config.toml`](config.toml) — otherwise, changes will not take effect.
 
 ### Localization
